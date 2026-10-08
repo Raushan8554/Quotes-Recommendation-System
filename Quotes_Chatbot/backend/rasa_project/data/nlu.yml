@@ -1,0 +1,138 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hey
+      - hello
+      - hi
+      - good morning
+      - good evening
+      - hey there
+      - howdy
+      - greetings
+      - hi chatbot
+
+  - intent: goodbye
+    examples: |
+      - bye
+      - goodbye
+      - see you around
+      - see you later
+      - talk to you soon
+      - have a nice day
+      - cya
+
+  - intent: affirm
+    examples: |
+      - yes
+      - yup
+      - indeed
+      - that was great
+      - of course
+      - that helped
+      - loved it
+      - yes please
+
+  - intent: deny
+    examples: |
+      - no
+      - nope
+      - never
+      - I don't think so
+      - not really
+      - didn't like it
+      - give me another
+
+  - intent: request_quote
+    examples: |
+      - give me a quote
+      - tell me a quote
+      - I want a quote
+      - recommend a quote
+      - share an inspiring thought
+      - can you give me some words of wisdom
+      - quote please
+      - show me a good quote
+      - send a quote
+      - read me a quote
+
+  - intent: select_category
+    examples: |
+      - I want [motivation](category)
+      - give me [motivation](category) quotes
+      - show me [motivational](category:motivation) quotes
+      - [motivation](category)
+      - [inspiration](category)
+      - need some [inspiration](category)
+      - give me [inspirational](category:inspiration) thoughts
+      - I want [success](category) quotes
+      - how to achieve [success](category)
+      - tell me about [success](category)
+      - show me [love](category) quotes
+      - [love](category)
+      - romantic [love](category) quotes
+      - tell me a [humor](category) quote
+      - give me something [funny](category:humor)
+      - [humor](category)
+      - make me laugh with [humor](category)
+
+  - intent: express_mood
+    examples: |
+      - I am feeling [sad](mood)
+      - I feel so [depressed](mood:sad) today
+      - I feel [down](mood:sad) and lost
+      - I am feeling very [stressed](mood)
+      - work is making me feel [stressed](mood)
+      - feeling [anxious](mood) about my future
+      - I am so [anxious](mood) right now
+      - I am [unmotivated](mood) to study
+      - feeling lazy and [unmotivated](mood)
+      - I feel [heartbroken](mood) after my breakup
+      - my heart hurts, feeling [heartbroken](mood)
+      - I am [happy](mood) today!
+      - feeling [joyful](mood:happy) and energetic
+      - I am [ambitious](mood) and ready to hustle
+      - feeling [excited](mood:happy)
+
+  - intent: feedback_positive
+    examples: |
+      - that was amazing
+      - that really helped me
+      - I feel much better now
+      - beautiful quote
+      - exactly what I needed
+      - thanks, this inspired me
+      - this resonated with me
+
+  - intent: feedback_negative
+    examples: |
+      - that didn't help
+      - I didn't like this quote
+      - not quite what I was looking for
+      - show me a different one
+      - give me another quote
+      - try another one
+
+  - intent: explain_quote
+    examples: |
+      - explain this quote
+      - what does this quote mean
+      - can you break down the meaning
+      - tell me the deeper reflection
+      - give me advice based on this quote
+      - explain it
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you human?
+      - am I talking to an AI?
+
+  - intent: ask_help
+    examples: |
+      - help
+      - what can you do?
+      - how do I use this chatbot?
+      - show me available categories
+      - what are your features?

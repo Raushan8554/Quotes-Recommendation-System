@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "text": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "Motivation",
+    "moods": ["unmotivated", "ambitious"],
+    "tags": ["work", "passion", "excellence"],
+    "reflection": "True greatness stems from passion. When you align your work with your purpose, perseverance comes naturally."
+  },
+  {
+    "id": 2,
+    "text": "It does not matter how slowly you go as long as you do not stop.",
+    "author": "Confucius",
+    "category": "Motivation",
+    "moods": ["sad", "stressed", "unmotivated"],
+    "tags": ["perseverance", "patience", "progress"],
+    "reflection": "Progress is not always fast; every small forward step builds momentum toward monumental achievement."
+  },
+  {
+    "id": 3,
+    "text": "Believe you can and you're halfway there.",
+    "author": "Theodore Roosevelt",
+    "category": "Motivation",
+    "moods": ["anxious", "unmotivated"],
+    "tags": ["confidence", "belief", "mindset"],
+    "reflection": "Your internal conviction dictates your external reality. Trust in your capability to overcome obstacles."
+  },
+  {
+    "id": 4,
+    "text": "You are never too old to set another goal or to dream a new dream.",
+    "author": "C.S. Lewis",
+    "category": "Inspiration",
+    "moods": ["sad", "unmotivated"],
+    "tags": ["dreams", "age", "possibility"],
+    "reflection": "Life isn't bound by age or past mistakes. Every dawn brings an invitation to begin anew."
+  },
+  {
+    "id": 5,
+    "text": "In the middle of every difficulty lies opportunity.",
+    "author": "Albert Einstein",
+    "category": "Inspiration",
+    "moods": ["stressed", "anxious", "sad"],
+    "tags": ["challenges", "growth", "opportunity"],
+    "reflection": "Tough times are disguised lessons that force us to innovate, adapt, and grow stronger."
+  },
+  {
+    "id": 6,
+    "text": "Act as if what you do makes a difference. It does.",
+    "author": "William James",
+    "category": "Inspiration",
+    "moods": ["sad", "unmotivated"],
+    "tags": ["impact", "purpose", "action"],
+    "reflection": "Never underestimate the ripples created by your kind gestures and daily efforts."
+  },
+  {
+    "id": 7,
+    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "author": "Winston Churchill",
+    "category": "Success",
+    "moods": ["stressed", "sad", "ambitious"],
+    "tags": ["courage", "resilience", "triumph"],
+    "reflection": "Neither triumph nor defeat defines your destiny; what matters is the grit to keep showing up."
+  },
+  {
+    "id": 8,
+    "text": "The secret of getting ahead is getting started.",
+    "author": "Mark Twain",
+    "category": "Success",
+    "moods": ["unmotivated", "stressed"],
+    "tags": ["productivity", "initiative", "momentum"],
+    "reflection": "Overthinking breeds inertia. Break down big mountains into singular manageable steps."
+  },
+  {
+    "id": 9,
+    "text": "Opportunities don't happen. You create them.",
+    "author": "Chris Grosser",
+    "category": "Success",
+    "moods": ["ambitious", "unmotivated"],
+    "tags": ["action", "opportunity", "hustle"],
+    "reflection": "Instead of waiting for ideal circumstances, build the tools and open the doors yourself."
+  },
+  {
+    "id": 10,
+    "text": "The greatest thing you'll ever learn is just to love and be loved in return.",
+    "author": "Eden Ahbez",
+    "category": "Love",
+    "moods": ["heartbroken", "happy", "sad"],
+    "tags": ["compassion", "connection", "warmth"],
+    "reflection": "Love is the core human pursuit. Opening your heart requires bravery, but offers unmatched richness."
+  },
+  {
+    "id": 11,
+    "text": "To love and be loved is to feel the sun from both sides.",
+    "author": "David Viscott",
+    "category": "Love",
+    "moods": ["happy", "heartbroken"],
+    "tags": ["affection", "connection", "joy"],
+    "reflection": "Mutual love illuminates life, giving warmth even in the coldest seasons of the heart."
+  },
+  {
+    "id": 12,
+    "text": "There is only one happiness in this life, to love and be loved.",
+    "author": "George Sand",
+    "category": "Love",
+    "moods": ["sad", "happy", "heartbroken"],
+    "tags": ["simplicity", "relationships", "fulfillment"],
+    "reflection": "Strip away worldly clutter and what remains meaningful is the depth of our emotional bonds."
+  },
+  {
+    "id": 13,
+    "text": "I used to think I was indecisive, but now I'm not so sure.",
+    "author": "Tommy Cooper",
+    "category": "Humor",
+    "moods": ["stressed", "happy", "sad"],
+    "tags": ["wit", "lighthearted", "laughter"],
+    "reflection": "A chuckle a day keeps anxiety at bay. Embracing our quirks is the best form of relief."
+  },
+  {
+    "id": 14,
+    "text": "A day without sunshine is like, you know, night.",
+    "author": "Steve Martin",
+    "category": "Humor",
+    "moods": ["sad", "stressed", "happy"],
+    "tags": ["silly", "fun", "laughter"],
+    "reflection": "Sometimes the smartest humor is delightfully simple nonsense to brighten your mood."
+  },
+  {
+    "id": 15,
+    "text": "People say nothing is impossible, but I do nothing every day.",
+    "author": "A.A. Milne (Winnie the Pooh)",
+    "category": "Humor",
+    "moods": ["stressed", "unmotivated"],
+    "tags": ["relaxation", "smile", "wit"],
+    "reflection": "Take a breath, smile, and permit yourself moments of blissful rest without guilt."
+  },
+  {
+    "id": 16,
+    "text": "Hardships often prepare ordinary people for an extraordinary destiny.",
+    "author": "C.S. Lewis",
+    "category": "Inspiration",
+    "moods": ["sad", "stressed", "heartbroken"],
+    "tags": ["hope", "destiny", "strength"],
+    "reflection": "The pressure you feel today is forging the strength you'll need for tomorrow's victory."
+  },
+  {
+    "id": 17,
+    "text": "Your time is limited, so don't waste it living someone else's life.",
+    "author": "Steve Jobs",
+    "category": "Motivation",
+    "moods": ["anxious", "ambitious"],
+    "tags": ["authenticity", "courage", "purpose"],
+    "reflection": "Live boldly in alignment with your true self, rather than conforming to outside noise."
+  },
+  {
+    "id": 18,
+    "text": "Don't watch the clock; do what it does. Keep going.",
+    "author": "Sam Levenson",
+    "category": "Motivation",
+    "moods": ["stressed", "unmotivated"],
+    "tags": ["focus", "persistence", "time"],
+    "reflection": "Focus on the present moment instead of racing against time. Consistency always triumphs."
+  },
+  {
+    "id": 19,
+    "text": "Success usually comes to those who are too busy to be looking for it.",
+    "author": "Henry David Thoreau",
+    "category": "Success",
+    "moods": ["ambitious", "stressed"],
+    "tags": ["dedication", "focus", "mastery"],
+    "reflection": "Immerse yourself deeply in craft and contribution; success is the organic byproduct."
+  },
+  {
+    "id": 20,
+    "text": "The way to get started is to quit talking and begin doing.",
+    "author": "Walt Disney",
+    "category": "Success",
+    "moods": ["unmotivated", "ambitious"],
+    "tags": ["action", "dreams", "execution"],
+    "reflection": "Execution turns intangible dreams into tangible realities."
+  },
+  {
+    "id": 21,
+    "text": "Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.",
+    "author": "Lao Tzu",
+    "category": "Love",
+    "moods": ["happy", "heartbroken", "anxious"],
+    "tags": ["strength", "devotion", "courage"],
+    "reflection": "Love empowers both the giver and the receiver with transcendent emotional fortitude."
+  },
+  {
+    "id": 22,
+    "text": "Love is composed of a single soul inhabiting two bodies.",
+    "author": "Aristotle",
+    "category": "Love",
+    "moods": ["happy", "heartbroken"],
+    "tags": ["unity", "soul", "romance"],
+    "reflection": "True harmony between two people creates an enduring bond beyond the physical."
+  },
+  {
+    "id": 23,
+    "text": "I am so clever that sometimes I don't understand a single word of what I am saying.",
+    "author": "Oscar Wilde",
+    "category": "Humor",
+    "moods": ["stressed", "happy"],
+    "tags": ["irony", "wit", "humor"],
+    "reflection": "Self-deprecating wit is the highest form of human charm and stress relief."
+  },
+  {
+    "id": 24,
+    "text": "Never put off till tomorrow what may be done day after tomorrow just as well.",
+    "author": "Mark Twain",
+    "category": "Humor",
+    "moods": ["stressed", "unmotivated"],
+    "tags": ["procrastination", "wit", "satire"],
+    "reflection": "When life feels overwhelming, giving yourself permission to relax is pure wisdom."
+  },
+  {
+    "id": 25,
+    "text": "Happiness can be found, even in the darkest of times, if one only remembers to turn on the light.",
+    "author": "J.K. Rowling (Albus Dumbledore)",
+    "category": "Inspiration",
+    "moods": ["sad", "stressed", "heartbroken"],
+    "tags": ["hope", "light", "positivity"],
+    "reflection": "Even when sorrow clouds your horizon, intentional gratitude illuminates the way forward."
+  },
+  {
+    "id": 26,
+    "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Inspiration",
+    "moods": ["sad", "anxious", "unmotivated"],
+    "tags": ["inner-strength", "resilience", "potential"],
+    "reflection": "Your potential is vastly greater than your past failures or future anxieties."
+  },
+  {
+    "id": 27,
+    "text": "Start where you are. Use what you have. Do what you can.",
+    "author": "Arthur Ashe",
+    "category": "Motivation",
+    "moods": ["unmotivated", "stressed", "anxious"],
+    "tags": ["action", "resourcefulness", "beginning"],
+    "reflection": "Perfection is unnecessary. Begin with the resources at hand and grow along the way."
+  },
+  {
+    "id": 28,
+    "text": "Dream big and dare to fail.",
+    "author": "Norman Vaughan",
+    "category": "Motivation",
+    "moods": ["ambitious", "anxious"],
+    "tags": ["bravery", "vision", "failure"],
+    "reflection": "Failure is merely data. The only true catastrophe is living without audacious aspirations."
+  },
+  {
+    "id": 29,
+    "text": "Don't be afraid to give up the good to go for the great.",
+    "author": "John D. Rockefeller",
+    "category": "Success",
+    "moods": ["ambitious", "anxious"],
+    "tags": ["growth", "excellence", "ambition"],
+    "reflection": "Comfort zones are the biggest enemy of extraordinary destiny. Dare to leap higher."
+  },
+  {
+    "id": 30,
+    "text": "I find that the harder I work, the more luck I seem to have.",
+    "author": "Thomas Jefferson",
+    "category": "Success",
+    "moods": ["ambitious", "unmotivated"],
+    "tags": ["work-ethic", "luck", "preparation"],
+    "reflection": "Luck is what occurs when preparedness converges with timely opportunity."
+  },
+  {
+    "id": 31,
+    "text": "Love does not dominate; it cultivates.",
+    "author": "Johann Wolfgang von Goethe",
+    "category": "Love",
+    "moods": ["heartbroken", "happy"],
+    "tags": ["nurture", "respect", "relationship"],
+    "reflection": "Genuine love encourages autonomy and uplifts the other person to flourish."
+  },
+  {
+    "id": 32,
+    "text": "If you live to be a hundred, I want to live to be a hundred minus one day so I never have to live without you.",
+    "author": "A.A. Milne",
+    "category": "Love",
+    "moods": ["happy", "heartbroken"],
+    "tags": ["devotion", "companionship", "tenderness"],
+    "reflection": "The beauty of selfless companionship brings timeless meaning to our mortal journey."
+  },
+  {
+    "id": 33,
+    "text": "My doctor told me that jogging could add years to my life. I think he was right. I feel ten years older already.",
+    "author": "Milton Berle",
+    "category": "Humor",
+    "moods": ["stressed", "unmotivated", "happy"],
+    "tags": ["exercise", "laughter", "relatable"],
+    "reflection": "Laughing at our struggle to get in shape is therapeutic and deeply human."
+  },
+  {
+    "id": 34,
+    "text": "Behind every great man is a woman rolling her eyes.",
+    "author": "Jim Carrey",
+    "category": "Humor",
+    "moods": ["happy", "stressed"],
+    "tags": ["relationships", "comedy", "marriage"],
+    "reflection": "Humility and a playful ribbing from loved ones keep our egos in healthy check."
+  },
+  {
+    "id": 35,
+    "text": "You must be the change you wish to see in the world.",
+    "author": "Mahatma Gandhi",
+    "category": "Inspiration",
+    "moods": ["sad", "ambitious"],
+    "tags": ["leadership", "integrity", "change"],
+    "reflection": "Transformation begins internally. Embody the virtue and justice you seek around you."
+  },
+  {
+    "id": 36,
+    "text": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "category": "Inspiration",
+    "moods": ["sad", "unmotivated", "ambitious"],
+    "tags": ["dreams", "future", "optimism"],
+    "reflection": "Guard your dreams fiercely against cynicism; they are the blueprint for your tomorrow."
+  },
+  {
+    "id": 37,
+    "text": "It always seems impossible until it's done.",
+    "author": "Nelson Mandela",
+    "category": "Motivation",
+    "moods": ["stressed", "anxious", "unmotivated"],
+    "tags": ["triumph", "perseverance", "hope"],
+    "reflection": "Formidable mountains shrink with every determined step taken toward the summit."
+  },
+  {
+    "id": 38,
+    "text": "Either you run the day, or the day runs you.",
+    "author": "Jim Rohn",
+    "category": "Motivation",
+    "moods": ["unmotivated", "ambitious"],
+    "tags": ["discipline", "focus", "mastery"],
+    "reflection": "Take charge of your agenda and energy before passive circumstances seize them."
+  },
+  {
+    "id": 39,
+    "text": "Success is walking from failure to failure with no loss of enthusiasm.",
+    "author": "Winston Churchill",
+    "category": "Success",
+    "moods": ["sad", "stressed", "ambitious"],
+    "tags": ["enthusiasm", "resilience", "grit"],
+    "reflection": "Sustained enthusiasm through repeated setbacks is the true hallmark of champions."
+  },
+  {
+    "id": 40,
+    "text": "The secret of success is to do the common thing uncommonly well.",
+    "author": "John D. Rockefeller Jr.",
+    "category": "Success",
+    "moods": ["ambitious"],
+    "tags": ["craftsmanship", "excellence", "detail"],
+    "reflection": "Excellence is not doing extraordinary things, but executing fundamental habits with supreme care."
+  },
+  {
+    "id": 41,
+    "text": "We loved with a love that was more than love.",
+    "author": "Edgar Allan Poe",
+    "category": "Love",
+    "moods": ["happy", "heartbroken"],
+    "tags": ["passion", "eternity", "devotion"],
+    "reflection": "Some bonds transcend ordinary boundaries, etching indelible memories onto our souls."
+  },
+  {
+    "id": 42,
+    "text": "Love is friendship that has caught fire.",
+    "author": "Ann Landers",
+    "category": "Love",
+    "moods": ["happy", "heartbroken"],
+    "tags": ["friendship", "romance", "deep-bond"],
+    "reflection": "The most lasting romances are anchored in mutual respect and sincere friendship."
+  },
+  {
+    "id": 43,
+    "text": "I am not lazy, I am on energy saving mode.",
+    "author": "Anonymous",
+    "category": "Humor",
+    "moods": ["unmotivated", "stressed", "happy"],
+    "tags": ["laziness", "fun", "wit"],
+    "reflection": "Rest is not a flaw; it's a vital recharge cycle for high-voltage brilliance."
+  },
+  {
+    "id": 44,
+    "text": "Everything is funny, as long as it's happening to somebody else.",
+    "author": "Will Rogers",
+    "category": "Humor",
+    "moods": ["happy", "stressed"],
+    "tags": ["perspective", "irony", "chuckle"],
+    "reflection": "Looking at our mishaps from a third-person perspective instantly transforms tears into chuckles."
+  },
+  {
+    "id": 45,
+    "text": "Keep your face always toward the sunshine—and shadows will fall behind you.",
+    "author": "Walt Whitman",
+    "category": "Inspiration",
+    "moods": ["sad", "stressed", "anxious"],
+    "tags": ["optimism", "sunshine", "hope"],
+    "reflection": "Where attention goes, energy flows. Deliberately orient your spirit toward warmth and light."
+  },
+  {
+    "id": 46,
+    "text": "Do one thing every day that scares you.",
+    "author": "Eleanor Roosevelt",
+    "category": "Motivation",
+    "moods": ["anxious", "ambitious"],
+    "tags": ["courage", "comfort-zone", "growth"],
+    "reflection": "Courage is a muscle. Exercising it against small daily fears expands your freedom exponentially."
+  },
+  {
+    "id": 47,
+    "text": "Don't judge each day by the harvest you reap but by the seeds that you plant.",
+    "author": "Robert Louis Stevenson",
+    "category": "Success",
+    "moods": ["stressed", "unmotivated", "sad"],
+    "tags": ["patience", "sowing", "long-term"],
+    "reflection": "Quiet, unseen efforts invested today will yield bountiful harvests in seasons to come."
+  },
+  {
+    "id": 48,
+    "text": "Love recognizes no barriers. It jumps hurdles, leaps fences, penetrates walls to arrive at its destination full of hope.",
+    "author": "Maya Angelou",
+    "category": "Love",
+    "moods": ["heartbroken", "happy"],
+    "tags": ["persistence", "hope", "unconditional"],
+    "reflection": "True affection possesses relentless resilience in the face of distances and trials."
+  },
+  {
+    "id": 49,
+    "text": "Wine is constant proof that God loves us and loves to see us happy.",
+    "author": "Benjamin Franklin",
+    "category": "Humor",
+    "moods": ["happy", "stressed"],
+    "tags": ["celebration", "wit", "cheers"],
+    "reflection": "Celebrate life's small pleasant joys without holding back your smile."
+  },
+  {
+    "id": 50,
+    "text": "You do not find the happy life. You make it.",
+    "author": "Camilla Eyring Kimball",
+    "category": "Inspiration",
+    "moods": ["sad", "unmotivated", "heartbroken"],
+    "tags": ["happiness", "agency", "creativity"],
+    "reflection": "Joy is not an Easter egg hidden waiting to be found; it is an art piece you actively paint."
+  }
+]

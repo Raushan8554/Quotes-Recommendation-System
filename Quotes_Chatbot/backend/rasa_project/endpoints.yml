@@ -1,0 +1,13 @@
+# This file contains the different endpoints your bot can use.
+
+# Server which runs your custom actions.
+action_endpoint:
+  url: "http://localhost:5055/webhook"
+
+# Tracker store which is used to store the state of a conversation.
+tracker_store:
+  type: in_memory
+
+# Event broker which all conversation events should be streamed to.
+# event_broker:
+#   type: pika

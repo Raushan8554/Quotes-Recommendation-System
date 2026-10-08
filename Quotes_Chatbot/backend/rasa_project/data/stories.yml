@@ -1,0 +1,49 @@
+version: "3.1"
+
+stories:
+  - story: greet and offer quotes
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - action: utter_ask_category_or_mood
+
+  - story: direct quote request
+    steps:
+      - intent: request_quote
+      - action: action_recommend_quote
+      - action: utter_ask_satisfaction
+
+  - story: category quote request and positive feedback
+    steps:
+      - intent: select_category
+      - action: action_recommend_quote
+      - action: utter_ask_satisfaction
+      - intent: feedback_positive
+      - action: utter_happy_helped
+
+  - story: mood expressed and quote recommendation
+    steps:
+      - intent: express_mood
+      - action: action_recommend_quote
+      - action: utter_ask_satisfaction
+
+  - story: quote feedback negative and retry
+    steps:
+      - intent: select_category
+      - action: action_recommend_quote
+      - action: utter_ask_satisfaction
+      - intent: feedback_negative
+      - action: utter_apologize_and_retry
+      - action: action_recommend_quote
+      - action: utter_ask_satisfaction
+
+  - story: user asks for quote explanation
+    steps:
+      - intent: explain_quote
+      - action: action_explain_quote
+      - action: utter_ask_satisfaction
+
+  - story: user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye

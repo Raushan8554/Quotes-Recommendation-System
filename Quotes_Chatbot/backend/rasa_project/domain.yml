@@ -1,0 +1,87 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - request_quote
+  - select_category
+  - express_mood
+  - feedback_positive
+  - feedback_negative
+  - explain_quote
+  - bot_challenge
+  - ask_help
+
+entities:
+  - category
+  - mood
+  - author
+
+slots:
+  category:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: category
+  mood:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: mood
+  last_quote_id:
+    type: any
+    influence_conversation: false
+    mappings:
+      - type: custom
+
+responses:
+  utter_greet:
+    - text: "Hello there! ✨ I am your Quotes Recommendation AI Assistant. How are you feeling today, or what kind of quote are you looking for?"
+      buttons:
+        - title: "🌟 Inspiration"
+          payload: '/select_category{{"category":"Inspiration"}}'
+        - title: "💪 Motivation"
+          payload: '/select_category{{"category":"Motivation"}}'
+        - title: "🏆 Success"
+          payload: '/select_category{{"category":"Success"}}'
+        - title: "❤️ Love"
+          payload: '/select_category{{"category":"Love"}}'
+        - title: "😄 Humor"
+          payload: '/select_category{{"category":"Humor"}}'
+
+  utter_ask_category_or_mood:
+    - text: "You can tell me your current mood (e.g. feeling stressed, down, ambitious) or pick a category!"
+
+  utter_ask_satisfaction:
+    - text: "Did this quote resonate with you? Let me know how you feel!"
+      buttons:
+        - title: "👍 Yes, loved it!"
+          payload: "/feedback_positive"
+        - title: "🔄 Another quote"
+          payload: "/feedback_negative"
+        - title: "💡 Explain this quote"
+          payload: "/explain_quote"
+
+  utter_happy_helped:
+    - text: "I'm so glad that resonated with you! 🌈 Keep carrying that positive energy with you. Would you like another quote or have anything else on your mind?"
+
+  utter_apologize_and_retry:
+    - text: "No worries at all! Let me find something different and more tailored for you."
+
+  utter_goodbye:
+    - text: "Wishing you a wonderful, inspired day ahead! Come back whenever you need wisdom or motivation. 👋"
+
+  utter_iamabot:
+    - text: "I am an intelligent Quotes Recommendation Chatbot powered by NLP and Natural Language Understanding! 🤖"
+
+  utter_help:
+    - text: "Here is what I can do for you:\n• Recommend quotes by Category: Inspiration, Motivation, Success, Love, Humor.\n• Understand your Emotional State: Tell me if you feel stressed, sad, happy, or unmotivated.\n• Explain quotes and provide reflection advice.\n• Support text, voice input, and text-to-speech audio!"
+
+actions:
+  - action_recommend_quote
+  - action_explain_quote
+  - action_analyze_emotion
